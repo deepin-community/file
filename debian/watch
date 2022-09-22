@@ -1,0 +1,4 @@
+
+version=3
+opts=pgpsigurlmangle=s/$/.asc/ \
+    ftp://ftp.astron.com/pub/file/file-(.*?)\.tar\.gz
