@@ -1,3 +1,9 @@
+file (1:5.45-2deepin1) unstable; urgency=medium
+
+  * feat: add sw64 support
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 26 Jun 2025 14:00:28 +0800
+
 file (1:5.45-2) unstable; urgency=medium
 
   * Upload to unstable

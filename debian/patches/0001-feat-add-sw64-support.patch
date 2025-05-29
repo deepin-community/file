@@ -1,0 +1,25 @@
+From e6cf53e73ba1b404ff235f327324999e0b1a298a Mon Sep 17 00:00:00 2001
+From: hudeng <hudeng@deepin.org>
+Date: Thu, 29 May 2025 14:04:58 +0800
+Subject: [PATCH] feat: add sw64 support
+
+---
+ magic/Magdir/elf | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/magic/Magdir/elf b/magic/Magdir/elf
+index d3ec026..54e820d 100644
+--- a/magic/Magdir/elf
++++ b/magic/Magdir/elf
+@@ -328,6 +328,8 @@
+ >18	leshort		0x8472		OpenRISC (obsolete),
+ >18	leshort		0x9025		Cygnus PowerPC (unofficial),
+ >18	leshort		0x9026		Alpha (unofficial),
++>18	leshort		0x9906		SW_64 (obsolete),
++>18	leshort		0x9916		SW_64 (unofficial),
+ >18	leshort		0x9041		Cygnus M32R (unofficial),
+ >18	leshort		0x9080		Cygnus V850 (unofficial),
+ >18	leshort		0xa390		IBM S/390 (obsolete),
+-- 
+2.45.2
+

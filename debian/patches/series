@@ -11,3 +11,4 @@ local.support-local-definitions-in-etc-magic.patch
 local.don-t-include-libs-in-build.patch
 local.extra-magic.patch
 local.manpage-seccomp-is-disabled.patch
+0001-feat-add-sw64-support.patch
