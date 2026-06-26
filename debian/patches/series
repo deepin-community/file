@@ -1,14 +1,19 @@
 # reverted upstream commits
 
 # cherry-picked commits. Keep in upstream's chronological order
-1690555105.FILE5_45-1-g218fdf81.deal-with-32-bit-time-t.patch
+1733423740.FILE5_46-7-gb3384a1f.pr-579-net147-fix-stack-overrun.patch
+1733427672.FILE5_46-14-g60b2032b.pr-571-jschleus-some-zip-files-are-misclassified-as-data.patch
+1741021322.FILE5_46-55-gff9ba253.use-unsigned-byte-christoph-biedl.patch
+1742485595.FILE5_46-68-g5089651f.fix-openstreetmap-christoph-biedl.patch
+1742492756.FILE5_46-69-g280e121f.remove-superfluous-christoph-biedl.patch
+1742492810.FILE5_46-70-g4e2c7d3d.fix-msdosdate-endianess.patch
 
 # patches that should go upstream
 upstream.disable.att3b.patch
+upstream.stricter-postscript-magic.patch
 
 # local modifications
 local.support-local-definitions-in-etc-magic.patch
 local.don-t-include-libs-in-build.patch
 local.extra-magic.patch
 local.manpage-seccomp-is-disabled.patch
-0001-feat-add-sw64-support.patch
