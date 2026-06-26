@@ -31,7 +31,7 @@ Last-Update: 2016-06-27
  	if (map == NULL) {
 -		if (ms->flags & MAGIC_CHECK)
 +		if (ms->flags & MAGIC_CHECK && strcmp("/etc/magic", fn) != 0)
- 			file_magwarn(NULL, "using regular magic file `%s'", fn);
+ 			file_magwarn(ms, "using regular magic file `%s'", fn);
  		map = apprentice_load(ms, fn, action);
  		if (map == NULL)
 --- a/src/Makefile.am
@@ -47,7 +47,7 @@ Last-Update: 2016-06-27
  libmagic_la_SOURCES = buffer.c magic.c apprentice.c softmagic.c ascmagic.c \
 --- a/src/Makefile.in
 +++ b/src/Makefile.in
-@@ -361,7 +361,7 @@
+@@ -362,7 +362,7 @@
  MAGIC = $(pkgdatadir)/magic
  lib_LTLIBRARIES = libmagic.la
  nodist_include_HEADERS = magic.h
